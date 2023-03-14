@@ -1,0 +1,267 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --body-bg: #f0f0f0;
+    --body-color: #555;
+    --link-color: #222;
+    --color-sec-font: #1C1C1C;
+    --h1-color: #ff0000;
+    --hover-link: #B22222;
+    --arrow-color: #000000;
+    --bg-table: #dddddd;
+    --tm-white: #fff;
+    --tm-black: #000;
+    --tm-dark-blue: #1a3151;
+    --tm-lightest-blue: #00aded;
+    --tm-light-blue: #1d75a3;
+    --tm-azure: #314f77;
+    --tm-foggy-sky: #d2e3ed;
+    --tm-cyan: #5ca6ff;
+    --tm-navy: #001942;
+    --tm-sky-blue-transparent: rgba(63, 166, 252, 0.0509803922);
+    --tm-denim: #374457;
+    --tm-admiral: #00193f;
+    --tm-royal: #09224d;
+    --tm-blue: #06183d;
+    --tm-prussian-blue: #003555;
+    --tm-light-midnight: #16273e;
+    --tm-midnight: #17283e;
+    --tm-kashmir-blue: #596a81;
+    --tm-sky-blue: #0ebce6;
+    --tm-pacific-blue: #0a96d6;
+    --tm-sapphire: #0d2051;
+    --tm-seagull: #8ebad1;
+    --tm-grey-blue: #b0cfdf;
+    --tm-cobalt: #00449e;
+    --tm-green: #749f18;
+    --tm-limeade: #55a826;
+    --tm-lightest-green: #e3ecd1;
+    --tm-pastel-green: #00bc4b;
+    --tm-olivine: #a5c169;
+    --tm-caper: #b9cf8b;
+    --tm-reef: #ceddae;
+    --tm-grey: #ddd;
+    --tm-dark-grey: #333;
+    --tm-middle-grey: #57585a;
+    --tm-middle-light-grey: #999;
+    --tm-light-grey: #e4e4e4;
+    --tm-lightest-grey: #f2f2f2;
+    --tm-border-grey: #ccc;
+    --tm-cool-grey: #ececec;
+    --tm-abalone: #d5d5d5;
+    --tm-slate-grey: #728094;
+    --tm-gun-powder: #585859;
+    --tm-hawkes-blue: #d4d8de;
+    --tm-dim-gray: #6c6c6c;
+    --tm-white-smoke: #f0f0f0;
+    --tm-smoke: #f3f3f3;
+    --tm-whisper: #e9e9e9;
+    --tm-dark-whisper: #e6e6e6;
+    --tm-dark-dim: #666;
+    --tm-silver: #bbb;
+    --tm-red: #8f1a29;
+    --tm-dark-red: #bd2e2b;
+    --tm-chili: #9c002d;
+    --tm-vermilion: #d9020d;
+    --tm-crimson: #a91b39;
+    --tm-venetian-red: #b80718;
+    --tm-lightest-red: #f1cdd1;
+    --tm-light-red: #c03;
+    --tm-pure-red: #f00;
+    --tm-pale-chestnut: #e6a8ae;
+    --tm-yellow: #efa93b;
+    --tm-sunflower: #e6b40a;
+    --tm-bird-flower: #d8c206;
+    --tm-lightest-yellow: #fff6db;
+    --tm-pure-yellow: #ff0;
+    --tm-kournikova: #ffd24a;
+    --tm-oasis: #ffeebd;
+    --tm-paris-daisy: #ffea47;
+    --tm-purple: #8d5ba1;
+    --tm-petrol: #16738f;
+    --tm-gold: #dcb24e;
+    --tm-goldenrod: #d4c06a;
+    --tm-mustard: #a88040;
+    --tm-indigo: #400080;
+    --tm-fuchsia: #d047d1;
+    --brand-facebook: #37589a;
+    --brand-snapchat: #fffd00;
+    --brand-twitter: #0ea8e2;
+    --brand-whatsapp: #20b300;
+    --brand-youtube: #f2342c;
+    --brand-rss: #f60;
+    --brand-community: #1d75a3;
+    --brand-wahretabelle: #429535;
+}
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-size: large;
+    background-color: var(--body-bg);
+    color: var(--body-color);
+    width: 1920px;
+    height: 1080px;
+}
+
+.cabecalho {
+    padding-left: 7%;
+}
+
+.face {
+    width: 40px;
+    height: 26px;
+    position: absolute;
+    top: 12%;
+    left: 36%;
+}
+
+.insta {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 12%;
+    left: 35%;
+}
+
+
+.TransferInfo {
+    width: 180px;
+    height: 140px;
+    position: absolute;
+    left: 21%;
+    bottom: 86%;
+}
+
+.loginbtn {
+    padding-left: 72%;
+    position: absolute;
+    padding-top: 11.5%;
+}
+
+.Transferencias {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 12%;
+    padding-left: 23%;
+    position: absolute;
+    font-size: 30px;
+}
+
+
+.search-box {
+    position: absolute;
+    top: 9%;
+    left: 68%;
+    background: #ffffff;
+    height: 40px;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+    color: var(--body-color);
+    font-size: 16px;
+    line-height: 40px;
+    transition: .2s;
+}
+
+.search-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div.tres {
+    margin: 10%;
+    margin-left: 20%;
+    width: 1443px;
+    height: 90px;
+    border: 25px solid;
+    /* As 4 bordas sólidas com 25px de espessura */
+    border-color: var(--tm-dark-blue);
+    background-color: var(--tm-dark-blue);
+    position: absolute;
+}
+
+.link {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 12%;
+    padding-left: 35%;
+    position: absolute;
+    font-size: 30px;
+}
+
+
+.escudos {
+    height: 90px;
+    width: 90px;
+    align-items: center;
+
+
+}
+
+.table1 {
+    width: 400px;
+    align-items: center;
+}
+
+
+.arrow1 {
+
+    font-size: 55px;
+    align-items: center;
+
+}
+
+.arrow2 {
+    font-size: 55px;
+    align-items: center;
+
+}
+
+.tr1 {
+    background-color: var(--bg-table);
+}
+
+
+.jogadores {
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+
+.realmadrid {
+    width: 90px;
+    height: 90px;
+    align-items: center;
+}
+
+.barçaescudo {
+    height: 320px;
+    width: 320px;
+    padding-left: 85%;
+    position: absolute;
+    padding-bottom: 21%;
+}
+

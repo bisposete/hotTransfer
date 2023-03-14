@@ -1,0 +1,10 @@
+div.tres {
+    margin: 10%;
+    margin-left: 15%;
+    width:1443px;
+    height:90px;
+    border: 25px solid; /* As 4 bordas sólidas com 25px de espessura */
+    border-color: var(--tm-dark-blue);
+    background-color: var(--tm-dark-blue);
+    position: absolute;
+    }

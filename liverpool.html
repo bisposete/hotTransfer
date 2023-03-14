@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool FC - Panel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="novo design/logo.png" />
+</head>
+
+<body>
+
+    
+    <header>
+        <a href="index.html"><img class="logo" src="novo design/logo.png" alt="logo" title="TransferInfo"></a>
+        <div class="seletor"></div>
+    </header>
+
+  
+
+    <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Pesquisar">
+        <a href="#" class="search-btn">
+            <img src="novo design/lupa.svg" alt="lupa" height="20" width="20">
+        </a>
+    </div>
+    <div class="caixa"></div>
+
+    <div class="conteiner">
+
+    <div>
+        <img class="Champions" src="images/55.png" alt="Champions League" title="Champions League">
+        <img class="seisvezes" src="images/botao.png" alt="1 vez" title="1 vez">
+    </div>
+
+    <button class="button" id="button-seemore"> <img src="images/mehr_erfolge.png" alt="mais" title="Ver Mais"></button>
+</div> 
+
+    <div>
+        <img class="fifawordlcup" src="https://tmssl.akamaized.net/images/erfolge/verybigquad/318.png?lm=1520606999"
+            alt="Mundial De Clubes FIFA" title="Mundial de Clubes FIFA">
+        <img class="umavez" src="images/botao1.png" alt="1 vez" title="1 vez">
+    </div>
+    <div>
+        <img class="premierLeague" src="images/PngItem_2686436.png" alt="Premier League" title="Liga Da Inglaterra">
+        <img class="dezenovevezes" src="images/19vezes.png" alt="19vezes" title="19 vezes">
+    </div>
+    <img class="escudos" src="https://logodetimes.com/times/liverpool-football-club/liverpool-football-club-2048.png" alt="liverpool-football-club" title="Liverpool">
+
+    <div id="tabelaModal" class="modalConteiner mostrar">
+        <div class="modal">
+            <div class="fundotabela"></div>
+            <button class="fechar" id="fechar">x</button>
+            <table class="tabelachampions">
+                <th><img  src="images/55.png" alt="Champions" title="Champions League"></th>
+                <th class="datas">18/19, 04/05, 83/84, 80/81, 77/78, 76/77</th>
+            </table>
+            <table class="premierleague">
+                <th><img class="trofeus" src="images/PngItem_2686436.png" alt="premierleague" title="Liga Inglesa"></th>
+                <th class="datas">19/20,  89/90,  87/88,  85/86,  83/84,  82/83,  81/82,  79/80,  78/79,  76/77,  75/76,  72/73,  65/66,  63/64,  46/47,  1922/23,  1921/22,  1905/06,  1900/01</th>
+            </table>
+            <table class="FIFAClubWorldCup">
+                <th><img class="trofeus" src="https://tmssl.akamaized.net/images/erfolge/verybigquad/318.png?lm=1520606999" alt="Mundial De Clubes FIFA" title="Mundial de Clubes FIFA"></th>
+                <th>19/20</th>
+            </table>
+        </div>
+
+         
+
+           
+
+
+
+
+
+
+    <script src="java.js"></script>
+
+    <style>
+        .Champions {
+            width: 110px;
+            min-width: 110px;
+            max-width: 110px;
+            min-height: 110px;
+            height: 110px;
+            max-height: 110px;
+            margin-left: 35%;
+            margin-top: 22%;
+            position: absolute;
+        }
+
+        .logo {
+            width: 180px;
+            height: 140px;
+            min-height: 140px;
+            max-height: 140px;
+            min-width: 180px;
+            max-width: 180px;
+            position: absolute;
+            left: 21%;
+            bottom: 86%;
+        }
+
+        div.seletor {
+            margin: 10%;
+            margin-left: 20%;
+            width: 1443px;
+            height: 90px;
+            min-height: 90px;
+            max-height: 90px;
+            min-width: 1443;
+            max-width: 1443px;
+            border: 25px solid;
+            /* As 4 bordas sólidas com 25px de espessura */
+            border-color: var(--tm-dark-blue);
+            background-color: var(--tm-dark-blue);
+            position: absolute;
+        }
+
+        .escudos {
+            width: 280px;
+            height: 280px;
+            min-width: 280px;
+            max-width: 280px;
+            min-height: 280px;
+            max-height: 280px;
+            margin-top: 22%;
+            margin-left: 22%;
+            position: absolute;
+        }
+
+        div.caixa {
+            margin-top: 20%;
+            margin-left: 20%;
+            width: 1443px;
+            height: 120px;
+            min-height: 120px;
+            max-width: 120px;
+            min-width: 1443;
+            max-width: 1443px;
+            border: 25px solid;
+            /* As 4 bordas sólidas com 25px de espessura */
+            border-color: #fafafa;
+            background-color: #fafafa;
+            position: absolute;
+        }
+
+        .seisvezes {
+            width: 35px;
+            height: 35px;
+            margin-left: 37.5%;
+            margin-top: 25%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+        }
+
+        .fifawordlcup {
+            width: 110px;
+            min-width: 110px;
+            max-width: 110px;
+            min-height: 110px;
+            height: 110px;
+            max-height: 110px;
+            margin-left: 40%;
+            margin-top: 22%;
+            position: absolute;
+        }
+
+        .umavez {
+            width: 35px;
+            height: 35px;
+            margin-left: 42.5%;
+            margin-top: 25%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .premierLeague {
+            width: 100px;
+            min-width: 100px;
+            max-width: 100px;
+            min-height: 110px;
+            height: 110px;
+            max-height: 110px;
+            margin-left: 45%;
+            margin-top: 22%;
+            position: absolute;
+        }
+
+        .dezenovevezes {
+            width: 35px;
+            height: 35px;
+            margin-left: 48%;
+            margin-top: 25%;
+            position: absolute;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .button {
+            background: none;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            margin-left: 51%;
+            margin-top: 25%;
+        }
+
+        .tabelachampions  {
+            height: 144px;
+            position: absolute;
+            margin-left: 25%;
+            margin-top: 35%;
+            border: 0.5px solid;
+            border-color: #fafafa;
+        }
+
+        .datas {
+            width: 350px;
+        }
+
+        .trofeus {
+            width: 90px;
+            height: 90px;
+            min-width: 90px;
+            min-height: 90px;
+            max-width: 90px;
+            max-height: 90px;
+        
+        }
+
+        .premierleague {
+            width: 400px;
+            height: 144px;           
+            margin-left: 60%;
+            margin-top: 36%;
+            border: 0.5px solid;
+            border-color: #fafafa;
+            position: absolute;
+        }
+
+        .FIFAClubWorldCup {
+            width: 450px;
+            height: 144px;           
+            margin-left: 25%;
+            margin-top: 45%;
+            border: 0.5px solid;
+            border-color: #fafafa;
+            position: absolute;
+            align-items: center;
+        }
+
+        .modalConteiner {
+            opacity: 0;
+        }
+
+        .mostrar {
+            opacity: 100;
+        }
+
+        th {
+            border: 0,25px solid;
+            border-color: #fafafa;
+        }
+
+    </style>
+
+    <script>
+           function iniciarModal (modalID) {
+        const modal = document.getElementById(modalID)
+        console.log(modal)
+        modal.classList.add('mostrar')
+        modal.addEventListener('click', (e) => {
+           console.log(e.target.id)
+           if(e.target.classname == fechar)  {
+            modal.classList.remove('mostrar');          
+           }
+
+        });
+
+    }
+
+    const botao = document.querySelector('#button-seemore')
+    botao.addEventListener('click', function() {
+        iniciarModal('tabelaModal');
+    })
+    console.log(botao);
+    </script>
+</body>
+
+</html>
